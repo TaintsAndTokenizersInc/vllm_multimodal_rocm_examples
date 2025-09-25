@@ -1,4 +1,4 @@
-# vLLM Multimodal Inference Demo (Image-Only)
+# vLLM Multimodal Inference Demo
 
 A complete example for running multimodal inference with **Gemma 3 27B IT** using **vLLM** on ROCm-enabled hardware. This repository demonstrates how to serve a multimodal model with support for text and images, and interact with it via the OpenAI-compatible API.
 
