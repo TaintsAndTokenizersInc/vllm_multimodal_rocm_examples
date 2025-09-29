@@ -52,6 +52,7 @@ docker compose up -d
 
 > 🔍 **Check server logs** for startup status and any errors.  
 > View example output in [`example_logs.md`](example_logs.md).
+
 > ⚠️ Ensure your system has ROCm drivers installed and the `docker` daemon is running.
 
 ### 4. Install Python Dependencies
@@ -82,8 +83,8 @@ Available options:
 
 ```
 .
-├── compose.yaml               # Docker setup for vLLM with ROCm (video support removed)
-├── multimodal_vllm_example.py # Demo script with OpenAI client (video code removed)
+├── compose.yaml               # Docker setup for vLLM with ROCm 
+├── multimodal_vllm_example.py # Demo script with OpenAI client
 ├── .env                       # Environment variables
 ├── requirements.txt           # Python dependencies
 └── README.md                  # This README file
