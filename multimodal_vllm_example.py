@@ -13,7 +13,7 @@ running a multimodal model (e.g., Gemma-3-27b-it or similar).
 
 Environment variables:
 - OPENAI_API_KEY: API key for authentication (if required by your vLLM setup)
-- OPENAI_BASE_URL: Base URL of the vLLM server (e.g., http://localhost:8080/v1)
+- OPENAI_BASE_URL: Base URL of the vLLM server (e.g., http://localhost:8000/v1)
 - OPENAI_MODEL: Default model name (optional, can be overridden via CLI)
 
 Usage:
@@ -42,7 +42,7 @@ def check_vllm_health(base_url: str) -> bool:
     """Check if the vLLM server is alive by calling the /health endpoint.
 
     Args:
-        base_url: Base URL of the vLLM server (e.g., http://localhost:8080/v1)
+        base_url: Base URL of the vLLM server (e.g., http://localhost:8000/v1)
 
     Returns:
         True if server is responsive, False otherwise.
