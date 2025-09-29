@@ -44,9 +44,10 @@ HF_HUB_ENABLE_HF_TRANSFER=1 hf download google/gemma-3-27b-it --local-dir ~/goog
 
 > This will download the model to `~/google/gemma-3-27b-it`. Ensure the directory exists and is accessible.
 
-### 3. Build and Run the vLLM Server
+### 3. Pull and Run the vLLM Server
 
 ```bash
+docker pull docker.io/rocm/vllm-dev:nightly
 docker compose up -d
 ```
 
