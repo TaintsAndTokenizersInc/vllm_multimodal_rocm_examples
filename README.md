@@ -109,8 +109,7 @@ OPENAI_BASE_URL="http://localhost:8000/v1"
 ## 📌 Notes
 
 - **Gemma 3 27B IT** is unstable in `float16` → uses `bfloat16` for stability.
-- The model is mounted at `/google/gemma-3-27b-it` in the container.
-- `limit-mm-per-prompt` restricts to 2 images per prompt.
+- `limit-mm-per-prompt` restricts to 2 images per prompt, if removed vLLM defaults to a single image per API call
 - Ensure the model path in `compose.yaml` matches your local directory (`~/google/gemma-3-27b-it`).
 
 ---
