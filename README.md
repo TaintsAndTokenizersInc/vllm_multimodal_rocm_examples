@@ -30,7 +30,7 @@ A complete example for running multimodal inference with **Gemma 3 27B IT** usin
 ### 1. Clone the Repository
 
 ```bash
-git clone https://github.com/yourusername/vllm-multimodal-demo.git
+git clone https://github.com/TaintsAndTokenizersInc/vllm-multimodal-demo.git
 cd vllm-multimodal-demo
 ```
 
